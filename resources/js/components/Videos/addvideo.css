@@ -1,0 +1,26 @@
+.form2 {
+    border: 5px solid rgba(255, 2, 2, 0.66);
+    padding: 35px;
+    
+}
+.head2{
+    /* background: #000;
+     */
+     border: 3px solid rgba(248, 6, 6, 0.66);
+    color: rgb(247, 80, 80);;
+    width: auto;
+    font-size: 30px;
+    font-weight: 700;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.form2 label{
+    color: rgb(245, 69, 69);
+    font-size: large;
+}
+
+
+/* .center {
+   
+} */
