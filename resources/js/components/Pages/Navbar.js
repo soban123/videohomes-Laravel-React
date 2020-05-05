@@ -23,11 +23,11 @@ class Navbarr extends React.Component{
         return(
  <div style={{marginLeft:'250px'}}>
         <Navbar bg="light" expand="lg" sticky="top" fixed="top">
-            <Navbar.Brand href="#home">Dashboard</Navbar.Brand>
+            <Navbar.Brand href="dashboard">Dashboard</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="mr-auto">
-                <Nav.Link href="#home"> <AiOutlineDashboard size='1.7em' />  </Nav.Link>
+                <Nav.Link href="dashboard"> <AiOutlineDashboard size='1.7em' />  </Nav.Link>
                
                 <NavDropdown title={<GiWorld    size='1.5em'    />    }  id="basic-nav-dropdown">
                              

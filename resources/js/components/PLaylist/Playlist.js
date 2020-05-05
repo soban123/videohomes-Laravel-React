@@ -56,7 +56,7 @@ class Play extends React.Component{
            
     
                 <h1 style={{color:'red'}}> Playlist </h1>
-                <Link to="/addplaylist" >  <Button variant="success"  > Add Playlist </Button>   </Link>
+                <Link to="/addplaylist" >  <Button variant="outline-success" style={{margin:'10px'}} > Add Playlist </Button>   </Link>
                 <br />
                 <Table striped bordered hover >
       

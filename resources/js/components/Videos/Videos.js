@@ -70,7 +70,7 @@ class Video extends React.Component{
            
     
                 <h1 style={{color:'red'}} > Videos </h1>
-                <Link to="/addvideo" >  <Button variant="success"  > Add Video </Button>   </Link>
+                <Link to="/addvideo" >  <Button variant="outline-success" style={{margin:'10px'}} > Add Video </Button>   </Link>
                 <br />
                 <Table striped bordered hover responsive >
       
